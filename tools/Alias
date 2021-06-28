@@ -1,0 +1,7 @@
+alias norm="norminette -R CheckForbiddenSourceHeader"
+
+norm your_file
+
+alias gerr="gcc -Wall -Wextra -Werror"
+
+gcc1 your_c_file

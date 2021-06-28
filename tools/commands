@@ -1,0 +1,10 @@
+
+gcc -c *.c									convert from *.c to *.o
+
+ar rc lib*.a *.o							create library with *.o files
+
+gcc1 *.c -L . -lft							compile with library
+
+perl map_creator 9 9 3 > example_file		map creator BSQ
+
+git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
